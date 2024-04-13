@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="w-full h-full relative">
+    <header class="text-gray-600 body-font fixed top-0 w-full z-50">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+          <a href="/index.html" class="mr-5 text-white hover:text-gray-400"
+            >Home</a
+          >
+          <a href="/player.html" class="mr-5 text-white hover:text-gray-400"
+            >Players</a
+          >
+          <a class="mr-5 text-white hover:text-gray-400">About</a>
+        </nav>
+        <a
+          class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0"
+        >
+          <img class="w-12" src="./public/e-sport_11303797.png" alt="" />
+          <span class="ml-3 text-black text-xl">ESport Arena</span>
+        </a>
+        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+          <button
+            class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="h-full w-full flex items-center justify-center">
+      <form id="form" class="fixed w-full z-50 top-20 mx-auto max-w-7xl flex items-center">
+        <img src="./Image/search.png" class="h-6 pr-2" alt="" />
+        <input
+          id="role"
+          placeholder="Search In Game Role....!"
+          class="w-full rounded-md h-8 outline-none pl-2"
+          type="text"
+        />
+        <input
+          class="bg-black text-white px-4 py-2 rounded-2xl hover:cursor-pointer"
+          type="submit"
+          value="Search"
+        />
+      </form>
+      
+    </div>
+    <div
+      class="z-10  absolute bg-gray-800/15 backdrop-blur-sm rounded-2xl w-[76%] mt-24 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+    >
+    <div class="card-container mt-8 h-screen flex flex-wrap">
+
+    </div>
+      
+      </div>
+    <div>
+      <img
+        class="w-full"
+        src="./public/front-view-soldiers-fighting-war.jpg"
+        alt=""
+      />
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
